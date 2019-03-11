@@ -6,7 +6,7 @@ subjects:
 - kind: ServiceAccount
   name: podset-cluster-operator
   # Replace this with the namespace the operator is deployed in.
-  namespace: REPLACE_NAMESPACE
+  namespace: operator-ns
 roleRef:
   kind: ClusterRole
   name: podset-cluster-operator
